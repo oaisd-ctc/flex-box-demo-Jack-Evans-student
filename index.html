@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>flex-wrap property</title>
+    <link href="styles/flex-box.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Flex wrap</h1>
+    <p>The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines.</p>
+    <div class="flex-stuff">
+        <div class="styles"><p>1</p></div>
+        <div class="styles"><p>2</p></div>
+        <div class="styles"><p>3</p></div>
+        <div class="styles"><p>4</p></div>
+        <div class="styles"><p>5</p></div>
+        <div class="styles"><p>6</p></div>
+    </div>
+<br>
+<h1>Flex wrap reverse</h1>
+<p>wrap-reverse. Specifies that the flexible items will wrap, if necessary, in reverse order. Demo ❯ initial. Sets this property to its default value</p>
+    <div class="flex-2">
+        <div class="styles"><p>1</p></div>
+        <div class="styles"><p>2</p></div>
+        <div class="styles"><p>3</p></div>
+        <div class="styles"><p>4</p></div>
+        <div class="styles"><p>5</p></div>
+        <div class="styles"><p>6</p></div>
+    </div>
+    <br>
+    <h1>Flex no wrap</h1>
+    <p>The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked</p>
+    <div class="flex-3">
+        <div class="styles"><p>1</p></div>
+        <div class="styles"><p>2</p></div>
+        <div class="styles"><p>3</p></div>
+        <div class="styles"><p>4</p></div>
+        <div class="styles"><p>5</p></div>
+        <div class="styles"><p>6</p></div>
+    </div>
+<br>
+<h1>Flex order</h1>
+<p>The flex order displays what the order of things are in for example here the numbers are 1,2,3 but they are not in that order.</p>
+<div class="flex-container">
+    <div class="styles" style="order: 3">1</div>
+    <div class="styles" style="order: 2">2</div>
+    <div class="styles" style="order: 4">3</div> 
+    <div class="styles" style="order: 1">4</div>
+  </div>
+<h1>Flex basis</h1>
+<p>The flex-basis property specifies the initial length of a flexible item.</p>
+<div class="colors">
+<div id="main" class="flex-stuff4">
+<div class="flex-stuff4" style="background-color: aqua;">50px</div>
+<div class="flex-stuff4" style="background-color: rgb(0, 255, 42);">100px</div>
+<div class="flex-stuff4" style="background-color: rgb(255, 0, 200);">50px</div>
+<div class="flex-stuff4" style="background-color: rgb(47, 0, 255);">50px</div>
+<div class="flex-stuff4" style="background-color: rgb(255, 230, 0);">50px</div>
+</div>
+</div>
+<br>
+<h1>Flex shrink</h1>
+<p>The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.</p>
+<div class="flex-container2 colors">
+    <div>1</div>
+    <div>2</div>
+    <div style="flex-shrink: 0">3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+  </div>
+<br>
+<h1>flex direction column</h1>
+<p>The column value stacks the flex items vertically (from top to bottom):</p>
+<div class="color-2">
+<div class="flex-stuff5 colors">
+<div class="flex-stuff5">1</div>
+<div class="flex-stuff5">2</div>
+<div class="flex-stuff5">3</div>
+<div class="flex-stuff5">4</div>
+</div>
+</div>
+<br>
+<h1>flex direction column reverse</h1>
+<p>The column-reverse value stacks the flex items vertically (but from bottom to top):</p>
+<div class="flex-stuff6 colors-2">
+    <div class="flex-stuff6">1</div>
+    <div class="flex-stuff6">2</div>
+    <div class="flex-stuff6">3</div>
+    <div class="flex-stuff6">4</div>
+    </div>
+<br>
+<h1>The flex-direction Property</h1>
+
+<p>The "flex-direction: row;" stacks the flex items horizontally (from left to right):</p>
+<div class="flex-stuff7 colors-2">
+    <div class="flex-stuff7">1</div>
+    <div class="flex-stuff7">2</div>
+    <div class="flex-stuff7">3</div>
+    <div class="flex-stuff7">4</div>
+    <div class="flex-stuff7">5</div>
+    </div>
+<br>
+<h1>The flex-direction Property</h1>
+
+<p>The "flex-direction: row-reverse;" stacks the flex items horizontally (but from right to left):</p>
+<div class="flex-stuff8 colors-2">
+    <div class="flex-stuff8">1</div>
+    <div class="flex-stuff8">2</div>
+    <div class="flex-stuff8">3</div>
+    <div class="flex-stuff8">4</div>
+    <div class="flex-stuff8">5</div>
+    </div>
+<br>
+<h1>The justify-content Property</h1>
+
+<p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+<div class="flex-stuff9 styles">
+    <div class="flex-stuff9">1</div>
+    <div class="flex-stuff9">2</div>
+    <div class="flex-stuff9">3</div>
+    <div class="flex-stuff9">4</div>
+    <div class="flex-stuff9">5</div>
+</div>
+<br>
+<h1>The justify-content Property</h1>
+
+<p>The "justify-content: flex-start;" aligns the flex items at the beginning of the container (this is default):</p>
+<div class="flex-stuff10 styles">
+    <div class="flex-stuff10">1</div>
+    <div class="flex-stuff10">2</div>
+    <div class="flex-stuff10">3</div>
+    <div class="flex-stuff10">4</div>
+    <div class="flex-stuff10">5</div>
+</div>
+<br>
+<h1>The justify-content Property</h1>
+
+<p>The "justify-content: flex-end;" aligns the flex items at the end of the container:</p>
+<div class="flex-stuff11 styles">
+    <div class="flex-stuff11">1</div>
+    <div class="flex-stuff11">2</div>
+    <div class="flex-stuff11">3</div>
+    <div class="flex-stuff11">4</div>
+    <div class="flex-stuff11">5</div>
+</div>
+<br>
+<h1>The justify-content Property</h1>
+
+<p>The "justify-content: space-around;" displays the flex items with space before, between, and after the lines:</p>
+<div class="flex-stuff12 styles">
+    <div class="flex-stuff12">1</div>
+    <div class="flex-stuff12">2</div>
+    <div class="flex-stuff12">3</div>
+    <div class="flex-stuff12">4</div>
+    <div class="flex-stuff12">5</div>
+</div>
+<br>
+<h1>The justify-content Property</h1>
+
+<p>The "justify-content: space-between;" displays the flex items with space between the lines:</p>
+<div class="flex-stuff13 styles">
+    <div class="flex-stuff13">1</div>
+    <div class="flex-stuff13">2</div>
+    <div class="flex-stuff13">3</div>
+    <div class="flex-stuff13">4</div>
+    <div class="flex-stuff13">5</div>
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>
