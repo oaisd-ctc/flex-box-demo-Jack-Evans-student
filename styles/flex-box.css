@@ -1,0 +1,228 @@
+.flex-stuff{
+    display: flex ;
+    flex-wrap: wrap;
+    border: 5%;
+    border-style: solid;
+    background-color: rgb(255, 7, 7);
+    text-align: center;
+    flex-direction: row;
+}
+.styles{
+    height: 100px;
+    width: 400px;
+    border: 5%;
+    border-style: solid;
+    background-color: rgb(46, 208, 219);
+}
+.flex-2{
+    display: flex ;
+    flex-wrap: wrap-reverse;
+    border: 5%;
+    border-style: solid;
+    background-color: rgb(255, 0, 191);
+    text-align: center;
+    flex-direction: row;
+}
+.flex-3{
+    display: flex ;
+    flex-wrap: nowrap;
+    border: 5%;
+    border-style: solid;
+    background-color: rgb(255, 81, 0);
+    text-align: center;
+    flex-direction: row;
+}
+
+    
+    .flex-container>div {
+        background-color: rgb(13, 187, 51);
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }
+      .flex-container{
+        display: flex;
+        align-items: stretch;
+        border: 5%;
+    border-style: solid;
+    background-color: rgb(26, 135, 207);
+    text-align: center;
+    flex-direction: row;
+    border-color: black;
+      }
+      .styles{
+        border-color: black;
+      }
+      #main {
+        width: 300px;
+        height: 100px;
+        border: 1px solid #c3c3c3;
+        display: flex;}
+        #main div {
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-basis: 50px;
+          }
+          #main div:nth-of-type(2) {
+            flex-basis: 100px;}
+            
+            .flex-stuff4{
+                border: 5%;
+                border-style: solid;
+                background-color: rgb(255, 81, 0);
+                text-align: center;
+                flex-direction: row;
+            }
+            .colors{
+                align-items: stretch;
+        border: 5%;
+    border-style: solid;
+    background-color: rgb(173, 216, 73);
+    text-align: center;
+    border-color: black;
+            }
+            .flex-container2 {
+                display: flex;
+                align-items: stretch;
+              }
+              .flex-container2>div{
+                border: 5%;
+            border-style: solid;
+            background-color: rgb(26, 135, 207);
+            text-align: center;
+            flex-direction: row;
+            border-color: black;
+            width: 100px;
+            line-height: 75px;
+            font-size: 30px;
+            margin: 10px;
+              }
+              .flex-stuff5{
+                display: flex ;
+                border: 5%;
+                border-style: solid;
+                background-color: rgb(166, 255, 0);
+                text-align: center;
+                flex-direction: column;
+                width: 100px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+            }
+            .flex-stuff6{
+                display: flex ;
+                border: 5%;
+                border-style: solid;
+                background-color: rgb(255, 81, 0);
+                text-align: center;
+                flex-direction: column-reverse;
+                width: 100px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+            }
+            .colors-2{
+                align-items: stretch;
+                border: 5%;
+            border-style: solid;
+            background-color: rgb(173, 216, 73);
+            text-align: center;
+            border-color: black;
+            }
+            .flex-stuff7{
+                display: flex ;
+                border: 5%;
+                border-style: solid;
+                background-color: rgb(255, 0, 170);
+                text-align: center;
+                flex-direction: row;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 20%;
+            }
+            .flex-stuff8{
+                display: flex ;
+                border: 5%;
+                border-style: solid;
+                background-color: rgb(255, 0, 0);
+                text-align: center;
+                flex-direction: row-reverse;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 20%;
+            }
+            .flex-stuff9>div{
+                border: 5%;
+                border-style: solid;
+                background-color: rgb(0, 255, 242);
+                text-align: center;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        width: 5%;
+            }
+          .flex-stuff9{
+            display: flex;
+            justify-content: center;
+          }
+          .flex-stuff10{
+            display: flex;
+            justify-content: flex-start;
+          }
+          .flex-stuff10>div{
+            border: 5%;
+            border-style: solid;
+            background-color: rgb(208, 255, 0);
+            text-align: center;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 5%;
+          }
+          .flex-stuff11>div{
+            border: 5%;
+            border-style: solid;
+            background-color: rgb(0, 255, 55);
+            text-align: center;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 5%;
+          }
+          .flex-stuff11{
+            display: flex;
+            justify-content: flex-end;
+          }
+          .flex-stuff12>div{
+            border: 5%;
+            border-style: solid;
+            background-color: rgb(255, 102, 0);
+            text-align: center;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 5%;
+          }
+          .flex-stuff12{
+            display: flex;
+            justify-content: space-around;
+          }
+          .flex-stuff13>div{
+            border: 5%;
+            border-style: solid;
+            background-color: rgb(140, 0, 255);
+            text-align: center;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 5%;
+          }
+          .flex-stuff13{
+            display: flex;
+            justify-content: space-between;
+          }
